@@ -1,0 +1,11 @@
+defaulticon=bin/usb-stick.ico
+
+[autorun]
+CustomEvent=start für WINDOWS
+icon=bin\windows.ico
+open=ventoy\Ventoy2Disk.exe
+
+[autorun]
+CustomEvent=start für LINUX
+icon=bin\linux.ico
+open=ventoy\Ventoy2Disk.sh

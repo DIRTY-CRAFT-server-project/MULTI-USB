@@ -1,0 +1,239 @@
+[2024/05/21 04:31:14.180] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2024/05/21 04:31:14.180] Current Directory <D:\MULTI-BOOT\PORTABLE\ventoy>
+[2024/05/21 04:31:14.180] Exe file path <D:\MULTI-BOOT\PORTABLE\ventoy\Ventoy2Disk.exe>
+[2024/05/21 04:31:14.180] Current directory check OK.
+[2024/05/21 04:31:14.183] Current directory:<D:\MULTI-BOOT\PORTABLE\ventoy>
+[2024/05/21 04:31:14.186] ######### Current Ventoy Version: Ventoy2DiskX86 1.0.98 ########
+[2024/05/21 04:31:14.192] id=13852/764
+[2024/05/21 04:31:14.196] PPath:<C:\Windows\explorer.exe>
+[2024/05/21 04:31:14.198] PSize:<5550856 5420KB>
+[2024/05/21 04:31:14.201] Lunch main process 0
+[2024/05/21 04:31:14.203] Control Flag: 0 1 1
+[2024/05/21 04:31:14.206] Windows Version: <<Windows 10 Pro, 64-bit (Build 19045.3803)>>
+[2024/05/21 04:31:14.209] 
+===================== Enum All PhyDrives =====================
+[2024/05/21 04:31:14.212] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2024/05/21 04:31:14.214] RegQueryValueExA <Count> ret:0  Size:4 Value:4
+[2024/05/21 04:31:14.217] GetPhysicalDriveCount: 4
+[2024/05/21 04:31:14.219] Logical Drives: 0x7c
+[2024/05/21 04:31:14.221] LogicalDrive:\\.\C: PhyDrive:0 Num:1 Offset:53477376 ExtentLength:1999753696256
+[2024/05/21 04:31:14.224] C --> 0
+[2024/05/21 04:31:14.226] LogicalDrive:\\.\D: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000202043392
+[2024/05/21 04:31:14.229] D --> 1
+[2024/05/21 04:31:14.231] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:500105740288
+[2024/05/21 04:31:14.233] E --> 2
+[2024/05/21 04:31:14.244] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2024/05/21 04:31:14.247] F --> -1
+[2024/05/21 04:31:14.250] LogicalDrive:\\.\G: PhyDrive:3 Num:1 Offset:1048576 ExtentLength:15694016512
+[2024/05/21 04:31:14.252] G --> 3
+[2024/05/21 04:31:14.255] Create file Handle:00000130 \\.\PhysicalDrive0 status:0
+[2024/05/21 04:31:14.258] PHYSICALDRIVE0 size 2000398934016 bytes
+[2024/05/21 04:31:14.261] Create file Handle:00000130 \\.\PhysicalDrive1 status:0
+[2024/05/21 04:31:14.264] PHYSICALDRIVE1 size 1000204886016 bytes
+[2024/05/21 04:31:14.267] Create file Handle:00000140 \\.\PhysicalDrive2 status:0
+[2024/05/21 04:31:14.269] PHYSICALDRIVE2 size 500107862016 bytes
+[2024/05/21 04:31:14.276] Create file Handle:0000013C \\.\PhysicalDrive3 status:0
+[2024/05/21 04:31:14.279] PHYSICALDRIVE3 size 15728640000 bytes
+[2024/05/21 04:31:14.282] DeviceIoControl3 error:1 dwBytes:112
+[2024/05/21 04:31:14.285] PhyDrv:0 BusType:SATA Removable:0 Size:2048GB(2000398934016) Sector:512/4096 Name: TOSHIBA DT01ACA200
+[2024/05/21 04:31:14.287] PhyDrv:1 BusType:SATA Removable:0 Size:1024GB(1000204886016) Sector:512/4096 Name: ST1000DM003-9YN162
+[2024/05/21 04:31:14.290] PhyDrv:2 BusType:Nvme Removable:0 Size:512GB(500107862016) Sector:512/4096 Name: CT500P3SSD8
+[2024/05/21 04:31:14.292] PhyDrv:3 BusType:USB  Removable:1 Size:16GB(15728640000) Sector:0/0 Name:Intenso Alu Line
+[2024/05/21 04:31:14.295] LogicalDrive:\\.\C: PhyDrive:0 Num:1 Offset:53477376 ExtentLength:1999753696256
+[2024/05/21 04:31:14.297] Logical Drive:C  ===> PhyDrive:0
+[2024/05/21 04:31:14.300] LogicalDrive:\\.\D: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000202043392
+[2024/05/21 04:31:14.303] Logical Drive:D  ===> PhyDrive:1
+[2024/05/21 04:31:14.305] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:500105740288
+[2024/05/21 04:31:14.308] Logical Drive:E  ===> PhyDrive:2
+[2024/05/21 04:31:14.318] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2024/05/21 04:31:14.321] Logical Drive:F  ===> PhyDrive:-1
+[2024/05/21 04:31:14.324] LogicalDrive:\\.\G: PhyDrive:3 Num:1 Offset:1048576 ExtentLength:15694016512
+[2024/05/21 04:31:14.326] Logical Drive:G  ===> PhyDrive:3
+[2024/05/21 04:31:14.331] Create file Handle:00000140 \\.\PhysicalDrive3 status:0
+[2024/05/21 04:31:14.335] Read MBR Ret:1 Size:512 code:183
+[2024/05/21 04:31:14.340] =========== Disk3 GPT Partition 1 ============
+[2024/05/21 04:31:14.342] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2024/05/21 04:31:14.345] PartTbl.PartGuid = {5295f445-e95e-40b6-a540-80a151bf74a0}
+[2024/05/21 04:31:14.348] PartTbl.StartLBA = 2048
+[2024/05/21 04:31:14.351] PartTbl.LastLBA = 30654423
+[2024/05/21 04:31:14.353] PartTbl.Attribute = 0x0
+[2024/05/21 04:31:14.355] PartTbl.Name = Ventoy
+[2024/05/21 04:31:14.358] =========== Disk3 GPT Partition 2 ============
+[2024/05/21 04:31:14.360] PartTbl.PartType = {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+[2024/05/21 04:31:14.363] PartTbl.PartGuid = {8bb61906-aee6-4bab-a1f0-bcbf5474d3e0}
+[2024/05/21 04:31:14.365] PartTbl.StartLBA = 30654424
+[2024/05/21 04:31:14.368] PartTbl.LastLBA = 30719959
+[2024/05/21 04:31:14.370] PartTbl.Attribute = 0xc000000000000001
+[2024/05/21 04:31:14.373] PartTbl.Name = VTOYEFI
+[2024/05/21 04:31:14.375] PhysicalDrive3 is ventoy disk
+[2024/05/21 04:31:14.378] QueryDosDeviceA success \Device\Harddisk3\DR3
+[2024/05/21 04:31:14.382] [0] CreateFileA \\.\PhysicalDrive3 code:0 00000144
+[2024/05/21 04:31:14.385] Parse FAT fs...
+[2024/05/21 04:31:14.391] attach media success...
+[2024/05/21 04:31:14.442] GetVentoyVerInPhyDrive rc=0...
+[2024/05/21 04:31:14.445] VentoyVerInPhyDrive 3 is <1.0.97>...
+[2024/05/21 04:31:14.450] PhyDrive 3 is Ventoy Disk ver:1.0.97 SecureBoot:1
+[2024/05/21 04:31:14.453] LogicalDrive:\\.\G: PhyDrive:3 Num:1 Offset:1048576 ExtentLength:15694016512
+[2024/05/21 04:31:14.455] Find the partition 1 logical drive is G:\
+[2024/05/21 04:31:14.458] GetVolumeClusterSize G:\ SUCCESS 64 512 32768
+[2024/05/21 04:31:14.461] GetVentoyFsNameInPhyDrive 3 G:\ <exFAT> <exFAT>
+[2024/05/21 04:31:14.464] < TOSHIBA DT01ACA200> is filtered for not USB type.
+[2024/05/21 04:31:14.467] < ST1000DM003-9YN162> is filtered for not USB type.
+[2024/05/21 04:31:14.470] < CT500P3SSD8> is filtered for not USB type.
+[2024/05/21 04:31:14.592] Load languages from json file ...
+[2024/05/21 04:31:14.599] language json file len:276741 json parse:0
+[2024/05/21 04:31:14.603] Total 51 languages ...
+[2024/05/21 04:31:14.708] Combox select change, update secure boot option: 1 1
+[2024/05/21 04:31:14.733] Courier New font <C:\Windows\Fonts\couri.ttf> exist OK.
+[2024/05/21 04:31:14.737] system_dir=<C:\Windows\system32>
+[2024/05/21 04:31:14.740] sysnative_dir=<C:\Windows\Sysnative>
+[2024/05/21 04:31:14.743] LoadLibrary shell32.dll.mui SUCCESS
+[2024/05/21 04:31:14.749] SetAlertPromptHook SUCCESS
+[2024/05/21 04:31:59.025] SpaceMB:0 SizeInMB:15000
+[2024/05/21 04:31:59.035] DeviceIoControl3 error:1 dwBytes:112
+[2024/05/21 04:31:59.039] PhyDrive3 ALL match, now continue
+[2024/05/21 04:31:59.043] #####################################################
+[2024/05/21 04:31:59.045] InstallVentoy2PhyDrive try1 MBR PhyDrive3 <<Intenso Alu Line 16GB>>
+[2024/05/21 04:31:59.048] #####################################################
+[2024/05/21 04:31:59.052] Copy boot img success
+[2024/05/21 04:31:59.055] Disk signature: 0xfc30de9b
+[2024/05/21 04:31:59.058] ReservedSector: 0
+[2024/05/21 04:31:59.060] Lock disk for clean ............................. 
+[2024/05/21 04:31:59.064] QueryDosDeviceA success \Device\Harddisk3\DR3
+[2024/05/21 04:31:59.068] [0] CreateFileA \\.\PhysicalDrive3 code:0 000002E8
+[2024/05/21 04:31:59.071] FSCTL_LOCK_VOLUME success
+[2024/05/21 04:31:59.074] LogicalDrive:\\.\C: PhyDrive:0 Num:1 Offset:53477376 ExtentLength:1999753696256
+[2024/05/21 04:31:59.077] LogicalDrive:\\.\D: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000202043392
+[2024/05/21 04:31:59.081] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:500105740288
+[2024/05/21 04:31:59.091] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2024/05/21 04:31:59.095] LogicalDrive:\\.\G: PhyDrive:3 Num:1 Offset:1048576 ExtentLength:15694016512
+[2024/05/21 04:31:59.098] G: is belong to phydrive3
+[2024/05/21 04:31:59.100] Delete mountpoint G:\ ret:1 code:0
+[2024/05/21 04:31:59.104] Will use 'G:' as volume mountpoint
+[2024/05/21 04:32:00.890] VDS init OK, service 00FDEA5C
+[2024/05/21 04:32:00.929] Callback 1 process for disk <\\?\PhysicalDrive3>
+[2024/05/21 04:32:00.932] Deleting ALL partitions from disk '\\?\PhysicalDrive3':
+[2024/05/21 04:32:00.935] * Partition 1 (offset: 1048576, size: 15694016512) delete it.
+[2024/05/21 04:32:04.481] Delete this partitions success
+[2024/05/21 04:32:04.485] * Partition 2 (offset: 15695065088, size: 33554432) delete it.
+[2024/05/21 04:32:04.512] Delete this partitions success
+[2024/05/21 04:32:04.516] VDS_DeleteAllPartitions 3 ret:1 (SUCCESS)
+[2024/05/21 04:32:04.518] Deleting all partitions ......................... OK
+[2024/05/21 04:32:04.528] Lock disk for write ............................. 
+[2024/05/21 04:32:04.532] QueryDosDeviceA success \Device\Harddisk3\DR3
+[2024/05/21 04:32:04.579] [0] CreateFileA \\.\PhysicalDrive3 code:0 0000035C
+[2024/05/21 04:32:04.583] Opened \\.\PhysicalDrive3 for exclusive write access
+[2024/05/21 04:32:04.692] FSCTL_LOCK_VOLUME success
+[2024/05/21 04:32:04.700] Formatting part1 exFAT ...
+[2024/05/21 04:32:04.703] Formatting Part1 exFAT ...
+[2024/05/21 04:32:04.802] Formatting Part1 exFAT success
+[2024/05/21 04:32:04.807] Writing part2 FAT img ...
+[2024/05/21 04:32:04.812] FormatPart2Fat 30654464...
+[2024/05/21 04:32:04.823] Malloc whole img buffer success, now decompress ...
+[2024/05/21 04:32:05.464] decompress finished success
+[2024/05/21 04:32:05.467] VentoyProcSecureBoot 0 ...
+[2024/05/21 04:32:05.470] Open ventoy efi file 00ABA140 
+[2024/05/21 04:32:05.473] ventoy efi file size 1916928 ...
+[2024/05/21 04:32:05.476] Now delete all efi files ...
+[2024/05/21 04:32:05.479] Open bootx64 efi file 00ABA140 
+[2024/05/21 04:32:06.102] Open ventoy efi file 00ABA584 
+[2024/05/21 04:32:06.106] ventoy efi file size 1286144 ...
+[2024/05/21 04:32:06.110] Now delete all efi files ...
+[2024/05/21 04:32:06.113] Open bootia32 efi file 00ABA140 
+[2024/05/21 04:32:09.753] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:09.796] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:09.839] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:09.882] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:09.927] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.018] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.062] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.104] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.147] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.191] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.236] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:10.327] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.034] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.076] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.119] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.161] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.206] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.250] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.342] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.386] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.429] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.472] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.518] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.561] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.652] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.695] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.738] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.782] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.829] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.872] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.917] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:12.960] Write part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.013] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.064] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.115] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.169] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.225] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.280] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.336] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.392] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.447] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.500] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.558] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.615] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.663] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.705] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.747] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.789] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.831] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.874] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.916] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:13.957] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.000] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.042] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.084] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.126] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.169] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.211] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.253] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.296] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.338] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.381] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.423] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.467] Read part data bRet:1 dwSize:1048576 code:183
+[2024/05/21 04:32:14.480] Writing Boot Image ............................. 
+[2024/05/21 04:32:14.484] WriteGrubStage1ToPhyDrive ...
+[2024/05/21 04:32:14.501] Write MBR stage1 ...
+[2024/05/21 04:32:14.566] WriteFile Ret:1 dwSize:1048064 ErrCode:183
+[2024/05/21 04:32:14.571] Writing Partition Table ........................ 
+[2024/05/21 04:32:14.576] Write MBR OK ...
+[2024/05/21 04:32:14.585] Mounting Ventoy Partition ....................... 
+[2024/05/21 04:32:15.595] LogicalDrive:\\.\C: PhyDrive:0 Num:1 Offset:53477376 ExtentLength:1999753696256
+[2024/05/21 04:32:15.599] LogicalDrive:\\.\D: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000202043392
+[2024/05/21 04:32:15.602] LogicalDrive:\\.\E: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:500105740288
+[2024/05/21 04:32:15.608] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\F:, error:1
+[2024/05/21 04:32:15.611] LogicalDrive:\\.\G: PhyDrive:3 Num:1 Offset:1048576 ExtentLength:15694036992
+[2024/05/21 04:32:15.615] G: is belong to phydrive3
+[2024/05/21 04:32:18.788] LogicalDrive:\\.\H: PhyDrive:3 Num:1 Offset:15695085568 ExtentLength:33554432
+[2024/05/21 04:32:18.792] H: is belong to phydrive3
+[2024/05/21 04:32:18.796] Logical drive letter after write ventoy: <GH>
+[2024/05/21 04:32:18.799] G:\ is ventoy part1, already mounted
+[2024/05/21 04:32:18.833] H:\ is ventoy part2, delete mountpoint
+[2024/05/21 04:32:18.837] Close handle ...
+[2024/05/21 04:32:19.240] No need to reformat for default exfat
+[2024/05/21 04:32:19.244] GetVolumeClusterSize G:\ SUCCESS 64 512 32768
+[2024/05/21 04:32:19.246] OK
+
+[2024/05/21 04:32:21.788] Combox select change, update secure boot option: 0 0
+############# Ventoy2Disk  [x86_64] ################
+Di 21. Mai 17:19:20 CEST 2024
+decompress tools
+############# Ventoy2Disk  [x86_64] ################
+Di 21. Mai 17:22:48 CEST 2024
+decompress tools
